@@ -1,0 +1,11 @@
+1) What data types did you use for the hero's internal variables? Could other types have functioned as well?
+For internal variables for the Hero Class, I used two ints and one string. The ints represented the Hero's Strength and Courage, while the string
+represented the Hero's name. For higher values of Strength and Courage, it's possible to use long since it can hold a higher value without overflowing.
+
+2) How easy would it be for you to expand your code, giving your hero new stats and things they can do?
+It wouldn't be too difficult. You can add the stat of Remembering having a random bool which can temporarily increase their strength using a passed value instead of the 
+referenced passed variable. As well, you can add a stat of defense to defend your self which can knock down the other persons strength and perhaps one's own as well. 
+
+3) This is a framework that could be used as part of a game. Is there anything that feels like it's missing? Any obvious expansions you would make to this code?
+To make it more interested, maybe making it seem like an actual game. Adding in an option to type out actions and if something has been choosen then it would proceed to that function
+until the game would cause your Hero's courage to become 0. It would be a continuous while loop within the main function until it would fail, causing the game to end.
